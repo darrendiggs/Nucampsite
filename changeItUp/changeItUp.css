@@ -1,0 +1,61 @@
+body {
+    font-family: Open Sans, sans-serif;
+   
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1, h2, h3 {
+    font-family: Lobster, cursive;
+    color: #679c5f;
+}
+
+h2 {
+    color:#8c7f3c;
+}
+
+header h1, header h2 {
+    color:whitesmoke;
+    font-size: 3rem;
+}
+
+.reserve {
+    display: flex;
+    justify-content: center;
+}
+
+
+.site-footer {
+    background-image: linear-gradient(lightgrey, whitesmoke, white,white,white,white,white, whitesmoke);
+    padding: 20px 0;
+}
+
+.jumbotron{
+    margin: 0;
+    padding: 30px;
+    background-image: url(https://mongabay-images.s3.amazonaws.com/rainforests/photos/RAINFOREST_3X2.jpg);
+    color: white;
+    
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
